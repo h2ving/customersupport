@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Linking the CSS file -->
+</head>
+
+<body>
+    <h1>Product Recall Roleplay</h1>
+    <div class="tutorial">
+        <h4>Background:</h4>
+        <p>TechGadget Inc., a leading electronics manufacturer, has recently discovered a safety issue with one of its
+            popular smartphone models, the TechGadget XPhone. The company has identified a potential battery overheating
+            problem in a specific batch of phones. As a proactive measure, TechGadget Inc. has issued a voluntary recall of
+            the affected devices and is asking customers to contact their customer service for a callback regarding the
+            recall process.</p>
+    
+        <h4>Your Role as Participants:</h4>
+        <p>You are customers who have purchased the TechGadget XPhone. You've received an email notification about the
+            recall and have various concerns and questions regarding this issue. You will contact TechGadget Inc.'s customer
+            service platform, which uses ChatGPT to handle initial inquiries and provide information.</p>
+    
+        <h4>Objectives:</h4>
+        <p>Understand the recall process. Express your concerns or seek specific information about the product recall.
+            Experience how AI can manage customer service inquiries in a real-world business scenario.</p>
+    
+        <h5>Sample Questions for Participants:</h5>
+        <ul>
+            <li>"I heard about the XPhone recall. Can you tell me more about what’s happening and why?"</li>
+            <li>"Is it safe to keep using my XPhone until I get a replacement? What precautions should I take?"</li>
+            <li>"What are the steps I need to follow to return my phone? Will there be any shipping charges?"</li>
+            <li>"How will the replacement work? Will I get the same model or an upgrade?"</li>
+            <li>"How long will it take to receive a new phone after I send mine back?"</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Customer Support Form</h1>
+        <form id="supportForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <h2 id="sentInquiriesTitle">Sent inquiries</h2>
+    <div id="inquiries">
+        <!-- Populated list of inquiries -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
